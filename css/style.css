@@ -1,0 +1,173 @@
+/* background styling */
+
+html {
+  overflow-y: hidden;
+}
+
+body {
+  background-color: #fcfcff;
+  color: #fff;
+  font-family: "Roboto Light", Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: .1em;
+  height: 600px;
+  margin: auto;
+  margin-top: 50px;
+  width: 360px;
+}
+
+.iphone {
+  background-color: #444;
+}
+
+/* font styling */
+
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-style: italic;
+  padding-top: 16px;
+}
+
+.adjust {
+  padding: 16px 0px 16px 0px;
+}
+
+h5 {
+  color: pink;
+  font-style: italic;
+  font-size: 1em;
+}
+
+.special {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.time.special {
+  padding-left: -2px;
+}
+
+/* header */
+
+header {
+  padding-bottom: 20px;
+  position: sticky;
+  top: 0;
+}
+
+.status-bar {
+  padding-top: 4px;
+  width: 97%;
+}
+
+.status-bar, .toggle, .title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.toggle {
+  height: 32px;
+  margin: auto;
+  padding: 16px 0px 4px 0px;
+  width: 232px;
+}
+
+.arrow {
+  height: 28px;
+  width: 18px;
+  float: left;
+  padding: 20px 0px 0px 18px;
+}
+
+.location {
+  float: left;
+  padding-left: 12px;
+  padding-top: 32px;
+  text-align: center;
+  width: 270px;
+}
+
+.menu {
+  width: 9px;
+  height: 30px;
+  padding: 22px 12px 0px 20px;
+}
+
+/* map */
+
+.map img {
+  width: 100%;
+}
+
+/* flexbox / floats / adjustments for the bus schedule */
+
+.schedule {
+  overflow: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 100%;
+  padding-bottom: 24px;
+}
+
+/* nested list styling for the bus schedule */
+
+ul {
+  overflow-x: hidden;
+  white-space: wrap;
+  margin: auto;
+  padding: 0;
+}
+
+li {
+  display: block;
+  float: left;
+}
+
+.time {
+  text-align: right;
+}
+
+.direction {
+  padding-top: 12px;
+}
+
+.align {
+  float: left;
+  padding-top: 23px;
+}
+
+.buslist {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+}
+
+.bus {
+  max-width: 360px;
+  padding-bottom: 16px;
+}
+
+.number img {
+  width: 56px;
+  height: 56px;
+}
+
+.number {
+  width: 60px;
+}
+
+.destination {
+  width: 180px;
+  padding-left: 4px;
+}
+
+.time {
+  width: 95px;
+}
