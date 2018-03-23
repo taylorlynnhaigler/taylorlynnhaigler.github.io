@@ -51,6 +51,22 @@ h5 {
   padding-left: -2px;
 }
 
+.time.correct {
+  padding-top: 5px;
+  border-bottom: 1px solid gray;
+}
+.time.smidge {
+  padding-top: 7px;
+}
+
+.time h4, .time h5 {
+  padding-right: 12px;
+}
+
+.space {
+  padding-bottom: 24px;
+}
+
 /* header */
 
 header {
@@ -118,7 +134,6 @@ header {
 /* nested list styling for the bus schedule */
 
 ul {
-  overflow-x: hidden;
   white-space: wrap;
   margin: auto;
   padding: 0;
@@ -139,7 +154,7 @@ li {
 
 .align {
   float: left;
-  padding-top: 23px;
+  padding-top: 20px;
 }
 
 .buslist {
@@ -151,12 +166,12 @@ li {
 
 .bus {
   max-width: 360px;
-  padding-bottom: 16px;
+  padding-bottom: 8px;
 }
 
 .number img {
-  width: 56px;
-  height: 56px;
+  width: 52px;
+  height: 52px;
 }
 
 .number {
@@ -169,5 +184,12 @@ li {
 }
 
 .time {
-  width: 95px;
+  width: 104px;
+}
+
+/* dividers for the bus schedule table */
+
+.destination, .time {
+  border-bottom: .25px solid gray;
+  padding-bottom: 24px;
 }
